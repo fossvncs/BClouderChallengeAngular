@@ -1,0 +1,26 @@
+.main {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    
+}
+p-button{
+    margin: 0 5px;
+}
+.center{
+    text-align: center;
+}
+.create-button{
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+.form{
+    margin: 15px 0px;
+}
+.form label{
+    margin-right: 15px;
+}

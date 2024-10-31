@@ -1,0 +1,31 @@
+/* styles.css ou footer.component.css */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px; /* altura do footer */
+    background-color: #66CCFF; /* cor de fundo */
+    text-align: center; /* centraliza o texto */
+    display: flex;
+}
+.title{
+    font-weight: bolder;
+    font-size: medium;
+    color: black;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    transition: transform 0.3s ease; /* animação suave na transformação */
+}
+.title:hover{
+    color: #474BB6;
+    transform: scale(1.1); /* aumenta 10% o tamanho do elemento */
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
