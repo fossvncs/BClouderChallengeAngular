@@ -33,11 +33,10 @@ import { DropdownModule } from 'primeng/dropdown';
     FormsModule,
     CalendarModule,
     DropdownModule
-      
-    
   ],
   exports: [
-    MainscreenComponent
+    MainscreenComponent,
+    LoadingComponent
   ]
 })
 export class MainModule { }

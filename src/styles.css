@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css */
+body {
+    display: block;
+    padding-top: 60px; /* ajuste de acordo com a altura do header */
+    padding-bottom: 50px; /* ajuste de acordo com a altura do footer */
+  }

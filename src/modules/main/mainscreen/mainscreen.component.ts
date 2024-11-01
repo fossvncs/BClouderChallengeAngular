@@ -108,16 +108,16 @@ export class MainscreenComponent {
     this.loading = true
     this.http.delete(`${environment.apiUrl}BClouderUser?id=${this.userToDelete?.id}`).subscribe({
       next: (data: any) => {
+        this.showSuccess()
         console.log(data)
         this.loading = false
-        this.deleteUserModal = false
-        this.showSuccess()
-        this.getUsers()
+        
       },
       error: error => {
-        this.showError()
         console.log(error)
         this.loading = false
+        this.deleteUserModal = false
+        this.getUsers()
       }
     })
   }

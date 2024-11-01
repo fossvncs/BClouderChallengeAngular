@@ -14,8 +14,6 @@ import { ToastrModule } from 'ngx-toastr';
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    
-    
   ],
   imports: [
     BrowserModule,
@@ -23,13 +21,12 @@ import { ToastrModule } from 'ngx-toastr';
     MainModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot({
-      positionClass: 'toast-top-right', // Define a posição da notificação
-      timeOut: 4000,                    // Tempo que a notificação permanece visível (em ms)
-    })
-    
-        
+        positionClass: 'toast-top-right', // Define a posição da notificação
+        timeOut: 4000, // Tempo que a notificação permanece visível (em ms)
+    }),
+],
+  providers: [
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
